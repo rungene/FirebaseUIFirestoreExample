@@ -3,12 +3,12 @@ package com.rungenes.firebaseui_firestoreexample;
 public class Note {
 
     private String title;
-    private int  priority;
     private String description;
+    private int  priority;
 
     public Note(){
 
-
+//empty constructor needed
     }
 
     public Note(String title, int priority, String description) {
